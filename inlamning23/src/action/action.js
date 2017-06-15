@@ -2,8 +2,8 @@ const ADD_PRODUCT = "ADD_PRODUCT",
       ADD_TO_CART = "ADD_TO_CART",
       REMOVE_FROM_CART = "REMOVE_FROM_CART",
       HISTORY = "HISTORY",
-      CHANGE_TAB = "CHANGE_TAB",
-      PRODUCT = "PRODUCT";
+      CHANGE_TAB = "CHANGE_TAB";
+     
       
       
 
@@ -45,13 +45,9 @@ function changeTabAction (selectedTab) {
 
 
 
-function productAction () {
-  return{
-    type: PRODUCT
-  }
-}
+
   
 
 
-export { ADD_PRODUCT, addProductAction, ADD_TO_CART, addToCartAction, REMOVE_FROM_CART, removeFromCartAction, HISTORY,historyAction, CHANGE_TAB, changeTabAction, PRODUCT, productAction };
+export { ADD_PRODUCT, addProductAction, ADD_TO_CART, addToCartAction, REMOVE_FROM_CART, removeFromCartAction, HISTORY,historyAction, CHANGE_TAB, changeTabAction};
  

@@ -3,7 +3,7 @@ import Product from './Product.js';
 import Cartproduct from './Cartproduct.js';
 import History from './History.js';
 import  AddForm from './Form.js';
-import { addProductAction, removeFromCartAction, addToCartAction, historyAction, changeTabAction, productAction} from '../action/action.js';
+import { addProductAction, removeFromCartAction, addToCartAction, historyAction, changeTabAction} from '../action/action.js';
 import {connect} from 'react-redux';
 
 class TabComponent extends Component {
