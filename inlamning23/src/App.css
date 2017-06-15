@@ -1,0 +1,25 @@
+.tabbody {
+	width: auto; 
+	height: auto; 
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 2px;
+}
+.tabheader {
+	
+}
+.tabheader > *:focus {
+	outline: 0;
+	background-color: white;
+}
+.tabheader > * {
+	border-top-right-radius: 10px;
+	border-color: darkgray;
+	border-bottom-color: lightgray;
+	border-width: 1px;
+	margin-left: 2px;
+}
+
+.App {
+	padding: 20px;
+}
